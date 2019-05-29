@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>有赞 - 做生意，用有赞</title>
+    
+<style>
+
+.body {
+    display: block;
+    margin: 0px;
+}
+
+.header {
+  min-width: 1100px;
+  width: 100%;
+ height: auto;
+  position: relative;
+  background: #ffffff;
+  border-bottom: 1px solid #ededed;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 200;
+  transition: all 0.5s ease-in;
+  }
+
+.Logo {
+     margin-left:-30px;
+     display: inilne-block;
+     width: 72px;
+     height:25px;
+     margin-top: 22.5px;
+     background-size: 72px 25px;
+     background-image:0;
+ }
+
+.hongkong {
+ display: inline-block;
+  width: 60px;
+  margin-left: 10px;
+  margin-bottom: -1px;
+  position: absolute;
+  top: 25px;
+   left:280px;
+}
+
+.hongkong2 {
+  width: 78px;
+ color: #999;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 13px;
+   margin:0px;
+   padding:0px;
+   border:0px;
+}
+       
+
+
+.menu {
+position: absolute;
+left: 700px;
+top: 0px;
+zoom: 1;
+list-style: none;
+margin: 0;
+ padding: 0;
+ border: 0;
+font: inherit;
+font-size: 100%;
+ vertical-align: baseline;
+ padding-inline-start: 40px;
+         }
+
+ .red {  
+ text-decoration: none;
+ color: #FF4444 !important
+   }
+
+ .gray {
+ text-decoration: none;
+ color: #2c3a46;
+        }
+
+ .current {
+ position:relative;
+ display: inline-block;
+ height: 70px;
+ line-height: 70px;
+ padding: 0px 20px;
+}
+
+ .current2 {
+ z-index: 200;
+ margin-right: 16px;
+padding: 0px 20px;
+ height: 70px;
+ line-height: 70px;
+}
+
+ li {
+  float: left;
+  display: inline-block;
+  height: 70px;
+ line-height: 70px;
+}
+
+.land {
+ margin-top:0px;
+ padding: 0px 0px 0px 20px;
+ display: inline-block;
+ height: 70px;
+ line-height: 70px;
+ top:500px;
+ position:absolute;
+  left:700px;
+ top:5px;
+    }
+
+ .land2 {
+  width: 80px;
+  height: 30px;
+  line-height: 28px;
+  border: 1px solid #2B90ED;
+  color: #2B90ED;
+  text-align: center;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  }
+
+.reglist {
+ width: 80px;
+ height: 30px;
+line-height:30px;
+display: inline-block;
+ position:absolute;
+ color:#2B90ED;
+ text-align:center;
+ border-radius:2px;
+ box-sizing:border-box;
+ cursor:pionter;
+ top:25px;
+    }
+
+.reglist2 {
+ width: 80px;
+height: 30px;
+display: inline-block;
+background-color: #2B90ED;
+color: #ffffff;
+text-align: center;
+border-radius: 2px;
+cursor: pointer;
+    }
+
+.chuizhi {
+ height: 420px;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font: inherit;
+ font-size: 100%;
+vertical-align: baseline;
+ background-size: cover;
+ background-position:50%;
+    } 
+    
+ .chuizhi{
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1100px;
+  height: 70px;
+  zoom: 1;
+    }
+
+
+ .picture {
+ position: absolute;
+ top: 72px;
+ height: 400px;
+ width: 100%;
+ font: inherit;
+ font-size: 100%;
+ vertical-align: baseline;
+  background-size: cover;
+ background-position: 50%;
+     }
+
+
+ .zuoyou {
+  position: absolute; 
+  width: 1100px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+ margin: auto;
+ }
+
+ .left {
+  position: absolute;
+  left: -100px;
+  top: 140px;
+   height: 60px;
+   width: 60px;
+  background-size: 100% 100%;
+  background-image: url(zuo.png);
+   z-index: 99;
+ }
+
+ .right {
+  position: absolute;
+  left: 1100px;
+  top: 150px;
+  height: 60px;
+  width: 60px;
+ background-size: 100% 100%;
+ background-image: url(you.png); 
+ z-index: 99;
+}
+
+ .zan {
+position: absolute;
+ width: 1100px;
+ height: 100%;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+  margin: auto;
+  padding: 0;
+  border: 0;
+  font: inherit;
+ font-size: 100%;
+ vertical-align: baseline;
+}
+
+.yigeruanjian {
+font-size: 20px;
+color: #777;
+ margin-bottom: 55px；
+
+}
+
+
+
+h3 {
+ font-size: 44px;
+ margin: 100px 0 7px;
+line-height: 65px;
+}
+
+.haha {
+ width: 160px;
+ height: 40px;
+ line-height: 18px;
+ display: inline-block;
+ text-align: center;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+ box-sizing: border-box;
+ text-decoration: none;
+ border-radius: 2px;
+}
+
+.number {
+ color: #777;
+ margin-top: 15px;
+ display: block;
+ margin: 0;
+ padding: 10px 0px 0px  0px;
+ font-size: 14px;
+}
+
+.youzanweishangcheng {
+ margin-left: 500px;
+ font-size: 28px;
+ color: #333;
+ letter-spacing: 0;
+ text-align: center;
+ line-height: 40px;
+ padding-top: 0px;
+}
+
+.zhuyaode {
+position: absolute;
+ height:400px;
+ width: 100%;
+ margin: 70px 0px 0px 0px;
+ font: inherit;
+ font-size: 100%;
+ vertical-align: baseline;
+ background-size: cover;
+ background-position: 50%;
+ top:600px;
+}
+
+.dingweitupian {
+ position: absolute;
+ left: 170px;
+ margin: 70px 40px 0px 40px;
+}
+
+ .anniu {
+ margin-bottom: 28px;
+ }
+
+ .likey {
+ color: #333;
+ font-size: 18px;
+ line-height: 24px;
+ letter-spacing: 0;
+ }
+ .regular {
+margin-top: 5px;
+ font-size: 14px;
+ color: #999;
+  letter-spacing: 0;
+   line-height: 24px;
+ }
+
+
+ .mianfeishiyong{
+ font-size: 14px;
+ padding: 10px 42px;
+ border-radius: 2px;
+ display: inline-block;
+ background-color: #38f;
+  color: #fff;
+  margin-right: 15px;
+ }
+ 
+ .gongnengjieshao {
+   font-size: 14px;
+     padding: 10px 42px;
+     border-radius: 2px;
+     display: inline-block;
+     border: 1px solid #38f;
+     color: #38f;
+     padding: 9px 42px;
+     margin-left: 15px;
+ }
+
+ .picture2 {
+   position: absolute;
+   left: 500px;
+   top:0px;
+   width: 650px;
+   height: 455px;
+ }
+.jueduidingwei{
+    position: absolute;
+    top:430px;
+    }
+
+</style>
+      </head>
+             <body>
+        
+            <div class="phptpl-header" >
+                <div class="chuizhi">
+                <div class="Logo">
+                <p><img src="zan.png" alt ="Head First 有赞">
+                </p>
+           
+                <div class="hongkong">
+                <p class="hongkong2">香港上市代码
+                </p>
+                 <p class="hongkong2">08083.HK
+            </p>
+                </div>
+                     </div>
+               <ul class= "menu">
+                   <li class = "current">
+                       <a class = "red">首页
+                       </a>
+                        </li>
+                       <li class = "current">
+                       <a class = "gray">商家服务</a>
+                       </li>
+                       <li class = "current2">
+                       <a class = "gray">消费者</a>
+                       </li>
+                       <li class = "current2">
+                       <a class = "gray">渠道合作</a>
+                       </li>
+                       <li class = "current2">
+                       <a class = "gray">有赞云</a>
+                       </li>
+                       <li class = "current2">
+                       <a class = "gray">更多服务</a>
+                       </li>
+                       <li class ="land">
+                        <a class="land2">登录</a>
+                        </li>
+                        <li class ="reglist">
+                        <a class="reglist2">注册</a>
+                        </li>   
+                                             
+
+               </ul>
+            
+                </div>
+                </div>
+   <div class="picture" style="background-image:url(topbanner1@2x.jpg) ">
+        <div class ="zan">
+           <h3>是有赞微商城</h3>
+           <p class= "yigeruanjian">
+               一个软件解决网上开店的所有问题
+           </p>
+           <a target="blank" class="buttonmianfei primary">免费试用</a>
+        <small class="number">或致电 0571 - 8685 7988</small>
+        </div>
+
+       <div class ="zuoyou">
+           <div class = "left">
+               </div>
+           <div class = "right">
+
+               </div>
+        </div>
+
+        </div>
+   
+      <div class="jueduidingwei">
+      <h3 class="youzanweishangcheng">
+          有赞微商城 全行业全场景的电商解决方案
+      </h3>
+      <div class="dingweitupian">
+          <div class="anniu">
+          <p class="likey">
+              3分钟搭建移动商城
+              </p>
+          <p class="regular">
+              深挖行业特点 匹配产品功能，提供全行业解决方案
+              </p> 
+                </div>
+          <div class="anniu">
+          <p class="likey">
+              近百种营销工具
+              </p>
+          <p class="regular">
+              社群营销&节日营销，拉新、转化、复购面面俱到
+              </p>
+                </div>
+          <div class="anniu">
+              <p class="likey">
+                  系统化管理客户
+                  </p>
+           <p class="regular">
+              客户画像帮您了解客户，会员卡/储值卡实现精准营销
+              </p>
+          </div>
+          <div class="anniu"><p class="likey">
+              分销拓展销售渠道
+              </p>
+          <p class="regular">
+              客户帮你卖，员工帮你卖，300万商家帮你卖
+          </p>
+             </div>
+          <div class="anniu">
+              <a  class="mianfeishiyong" style="margin-right: 15px">
+                  免费试用
+                  </a>
+              <a class="gongnengjieshao" style="margin-left: 15px">
+                  功能介绍
+                   </a>
+               </div>
+              
+              <div class="zhuyaode">
+                  <div class="wrapper yz-resolutions" style="overflow: hidden">
+
+        </div>
+              </div>
+              <div class="picture2" style="background-image: url(guxiantu.png)">
+              </div>
+      </div>
+                     
+      </div>                 
+                          
+    </body>
+    </html>
+   
+        
+              
+   
+
+ 
+     
+               
+
+ 
+
+
+    
+
+
+
+
